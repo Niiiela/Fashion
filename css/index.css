@@ -1,0 +1,175 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#principal
+{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.barra
+{
+    height: 50px;
+    background: #0a0e11;
+    position: relative;
+}
+
+.logo1
+{
+    margin: 5px 0 0 160px;
+}
+
+.nav1
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+
+}
+.nav1 li ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.nav1 li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0 ;
+    padding: 13px;
+}
+
+.nav1 a
+{
+    color: #425562;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.nav1 a:hover
+{
+    color: #fff8f8;
+    transition: color .3s linear;
+}
+.pap
+{
+    height: 100%;
+    width: 100%;
+}
+
+.port
+{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.port h1
+{
+    padding: 50px;
+    font-size: 37px;
+    color: #252525;
+}
+
+.port p
+{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.gale
+{
+    color: #555;
+    padding: 0 100px 100px 50px 100px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.card
+{
+    width: 32%;
+   float: left;
+   text-align: center; 
+}
+
+.desfi
+{
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 16;
+   font-weight: bold;
+   padding: 1px;
+}
+
+.aba
+{
+    background-color: rgb(8, 0, 0);
+    padding: 100px;
+    color: white;
+    background-image: url('/img/papel1.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.aba h2
+{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.aba p
+{
+    padding: 25px;
+    line-height: 1.5;
+    width: 70%;
+}
+
+#cont
+{
+    margin: 50px 0;
+}
+
+#cont address
+{
+    color:#143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.map 
+{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+    padding: 5px;
+}
+.map  iframe
+{
+    width: 90%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.rodape
+{
+    background: #0b171f;
+    padding: 20px;
+    font-size: 12px;
+    color:white;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
